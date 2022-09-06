@@ -1,0 +1,63 @@
+body{
+    margin: 0px;
+    font-family: sans-serif;
+}
+.logo{
+    width: 100px;
+    padding: 10px;
+}
+.head-left{
+    float: left;
+    margin-top: 0.5vh;
+    margin-left: 2vw;
+}
+.head-right{
+    float: right;
+    margin-top: 1vh;
+    margin-right: 2vw;
+}
+.nav-icon{
+width: 20px;
+padding: 5px;
+}
+.nav{
+    display: inline-block;
+    position: sticky;
+    width: 100vw;
+    top: 0px;
+    background-color: white;
+}
+.section{
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+    text-align: center;
+}
+.div1{
+    width: 430px;
+}
+h4{
+    text-decoration: underline;
+}
+ul{
+    list-style: none;
+    background-color: rgb(231, 231, 231);
+    padding: 20px 10px;
+    border-radius: 20px;
+}
+.buy{
+    text-decoration: none;
+    color: white;
+    background-color: #F60013;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+.none{
+    display: none;
+}
+.point:hover{
+    cursor: pointer;
+}
