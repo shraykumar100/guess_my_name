@@ -1,63 +1,63 @@
-body{
-    margin: 0px;
-    font-family: sans-serif;
+body {
+  margin: 0px;
+  font-family: sans-serif;
 }
-.logo{
-    width: 100px;
-    padding: 10px;
+.logo {
+  width: 100px;
+  padding: 10px;
 }
-.head-left{
-    float: left;
-    margin-top: 0.5vh;
-    margin-left: 2vw;
+.head-left {
+  float: left;
+  margin-top: 0.5vh;
+  margin-left: 2vw;
 }
-.head-right{
-    float: right;
-    margin-top: 1vh;
-    margin-right: 2vw;
+.head-right {
+  float: right;
+  margin-top: 1vh;
+  margin-right: 2vw;
 }
-.nav-icon{
-width: 20px;
-padding: 5px;
+.nav-icon {
+  width: 20px;
+  padding: 5px;
 }
-.nav{
-    display: inline-block;
-    position: sticky;
-    width: 100vw;
-    top: 0px;
-    background-color: white;
+.nav {
+  display: inline-block;
+  position: sticky;
+  width: 100vw;
+  top: 0px;
+  background-color: white;
 }
-.section{
-    margin-top: 100px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+.section {
+  margin-top: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 
-    text-align: center;
+  text-align: center;
 }
-.div1{
-    width: 430px;
+.div1 {
+  width: 430px;
 }
-h4{
-    text-decoration: underline;
+h4 {
+  text-decoration: underline;
 }
-ul{
-    list-style: none;
-    background-color: rgb(231, 231, 231);
-    padding: 20px 10px;
-    border-radius: 20px;
+ul {
+  list-style: none;
+  background-color: rgb(231, 231, 231);
+  padding: 20px 10px;
+  border-radius: 20px;
 }
-.buy{
-    text-decoration: none;
-    color: white;
-    background-color: #F60013;
-    padding: 5px 10px;
-    border-radius: 10px;
-    font-weight: bold;
+.buy {
+  text-decoration: none;
+  color: white;
+  background-color: #f60013;
+  padding: 5px 10px;
+  border-radius: 10px;
+  font-weight: bold;
 }
-.none{
-    display: none;
+.none {
+  display: none;
 }
-.point:hover{
-    cursor: pointer;
+.point:hover {
+  cursor: pointer;
 }
