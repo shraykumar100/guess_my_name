@@ -1,0 +1,95 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: sans-serif;
+  background: #393E46;
+  width: 100%;
+  height: 100%;
+}
+
+.input{
+  text-align: center;
+  margin: 0px auto;
+  background-color: #222831;
+  padding: 30px 30px 30px 10px;
+  border-bottom-right-radius: 40px;
+  border-bottom-left-radius: 40px;
+}
+
+.submit{
+  padding: 15px 30px;
+  background: #EFFFFD;
+  border: none;
+  border-radius: 20px;
+  font-weight:bold;
+  font-size: 20px;
+  margin: 5px;
+  box-shadow: 6px 6px 10px black;
+}
+
+.input input[type="text"]{
+  width: 60vw;
+  height: 55px;
+  padding: 5px 10px;
+  background: #EFFFFD;
+  color: black;
+  border: none;
+  border-radius: 20px;
+  font-weight:bold;
+  font-size: 20px;
+  margin: 5px;
+  box-shadow: 6px 6px 10px black;
+}
+
+.card{
+  width: 50%;
+  background: #EEEEEE;
+  height: auto;
+  margin: 50px auto;
+  border-radius: 30px;
+  padding: 10px;
+  text-shadow: 3px 3px 4px grey;
+  box-shadow: 20px 20px 8px #222831;
+
+}
+
+
+.close{
+  float: right;
+  margin-top: -2px;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.card h1{
+  font-size: 50px;
+  padding: 5px 0;
+  text-align: center;
+}
+
+.card p{
+  text-align: center;
+  margin:30px 0;
+  font-size:40px;
+}
+.namediv{
+  text-align: center;
+}
+img{
+  height: 79px;
+  width: 79px;
+  border-color: transparent;
+}
+.submit:hover{
+  cursor: pointer;
+}
+.submit:active{
+  box-shadow: 0px 0px 0px;
+}
+.input input[type="text"]:active{
+  box-shadow: 0px 0px 0px;
+}

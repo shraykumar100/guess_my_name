@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>OpenWeather</title>
+  <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <div class="input">
+      <input type="text" placeholder="Enter the city" class="input_text">
+      <input type="submit" value="Search" class="submit">
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="card">
+        <div class="namediv">
+            <h1 class="name" id="name"></h1>
+            <span>
+                <img src="./loading.png" class="icon" alt="">
+                <p class="desc"></p>
+            </span>
+        </div>
+      <p class="temp"></p>
+      <p class="feels"></p>
+      <p class="mintemp"></p>
+      <p class="maxtemp"></p>
+      <p class="clouds"></p>
+      
+      <p class="wind"></p>
+    </div>
+  </div>
+<script src="./index.js"></script>
+</body>
+</html>
