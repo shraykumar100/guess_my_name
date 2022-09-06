@@ -1,6 +1,6 @@
 # About
 
-- An E-commerce clone built with HTML/CSS and JavaScript using DOM manipulation.
+- An E-commerce clone built with HTML,CSS and JavaScript using DOM manipulation.
 
 # Hosted link
 
